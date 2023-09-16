@@ -30,6 +30,7 @@ if pdf is not None:
                                           length_function=len
                                           )
 
+    print(text)
     chunks = text_splitter.split_text(text)
 
     # create embeddings

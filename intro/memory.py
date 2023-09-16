@@ -3,3 +3,7 @@ from langchain import OpenAI, ConversationChain
 
 llm = OpenAI(temperature=0)
 conversation = ConversationChain(llm=llm, verbose=True)
+print("input text: conversion")
+
+conversation.predict(input="Nice to meet you.")
+conversation.predict(input="I'm fine. this is my first AI project.")
