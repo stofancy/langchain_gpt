@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "langchaingpt"
+name = "klarna_gpt_plugin" # name must be the main entry file path of the project
 version = "0.1.0"
 description = ""
 authors = ["Kaihang An <ztmdsbt@hotmail.com>"]
