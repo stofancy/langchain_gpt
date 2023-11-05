@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "klarna_gpt_plugin" # name must be the main entry file path of the project
+name = "hackathon" # name must be the main entry file path of the project
 version = "0.1.0"
 description = ""
-authors = ["Kaihang An <ztmdsbt@hotmail.com>"]
+authors = ["Lucia Qiao <lucia.qiao@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
