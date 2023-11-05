@@ -1,8 +1,10 @@
+from dotenv import load_dotenv as load_env
 from langchain.chat_models import ChatOpenAI as chat
 from langchain.agents import load_tools, initialize_agent
 from langchain.agents import AgentType as at
 from langchain.tools import AIPluginTool as tool
 
+load_env()
 
 llm = chat(temperature=0)
 tools = load_tools(["requests_all"])
