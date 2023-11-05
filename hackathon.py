@@ -128,5 +128,5 @@ if uploaded_file is not None:
         st.write(resp["intermediate_steps"])
     else:
         resp = stuff_chain(target_len, docs, openaichat)
-    st.write("*******FINAL RESULT********")
+    st.write("========== MEETING MINUTES ==========")
     st.write(resp["output_text"])
