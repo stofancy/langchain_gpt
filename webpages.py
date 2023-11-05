@@ -12,8 +12,8 @@ from langchain.document_loaders import AsyncHtmlLoader
 
 load_env()
 
-st.set_page_config(page_title='pdf knowledge library')
-st.header('pdf knowledge library')
+st.set_page_config(page_title='webpage as knowledge library')
+st.header('webpage as  knowledge library')
 
 # pdf = st.file_uploader('upload pdf file', type='pdf')
 url = st.text_input(label='webpage url:')
